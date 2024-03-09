@@ -60,12 +60,14 @@ return {
 				{ name = "buffer" }, -- text within current buffer
 				{ name = "path" }, -- file system paths
 				{ name = "crates" }, -- rust crates
+				{ name = "codeium" }, -- codeium sources
 			}),
 			-- configure lspkind for vs-code like pictograms in completion menu
 			formatting = {
 				format = lspkind.cmp_format({
 					maxwidth = 50,
 					ellipsis_char = "...",
+					symbol_map = { Codeium = "" },
 				}),
 			},
 			window = {
