@@ -51,6 +51,7 @@ return {
 				-- "cpplint", -- c++ linter
 				"gofumpt", -- go formatter
 				"rustywind", -- tailwind classes rust formatter
+				"eslint", -- ts/js/ linter
 			},
 		})
 	end,
